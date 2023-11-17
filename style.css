@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@500;600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Pridi', serif;
+}
+body{
+  
+    background-color: rgb(240, 233, 222);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+    padding: 20px;
+}
+.btn{
+    background-color: rgb(2, 134, 13);
+    color: #fffcfc;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.money-img{
+    width: 400px;
+}
+.curry{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.curry select{
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid#0a9406;
+    font-size: 16px;
+}
+.curry input{
+    border: 0;
+    font-size: 29px;
+    justify-content: space-between;
+    text-align: end ;
+}
+.swap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
